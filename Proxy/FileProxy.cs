@@ -13,7 +13,11 @@ namespace Proxy
         protected string _path;
         public FileProxy(string path)
         {
-            _path = path ?? throw new ArgumentNullException(nameof(path), "Путь пуст");
+            if (path == null)
+            {
+                throw new ArgumentNullException(nameof(path), "Путь пуст");
+            }
+            _path = path;
             _file = new File(_path);
         }
         public double GetSize()

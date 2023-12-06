@@ -13,7 +13,11 @@ namespace Proxy
         protected StreamReader _reader;
         public File(string path)
         {
-            _path = path ?? throw new ArgumentNullException(nameof(path), "Путь пуст");
+            if (path == null)
+            {
+                throw new ArgumentNullException(nameof(path), "Путь пуст");
+            }
+            _path = path;
             _reader = new StreamReader(_path);
         }
         public double GetSize()
