@@ -1,0 +1,6 @@
+D:\Курс_II\ООАиП\Proxy\Proxy\bin\Debug\Proxy.dll
+D:\Курс_II\ООАиП\Proxy\Proxy\bin\Debug\Proxy.pdb
+D:\Курс_II\ООАиП\Proxy\Proxy\obj\Debug\Proxy.csproj.AssemblyReference.cache
+D:\Курс_II\ООАиП\Proxy\Proxy\obj\Debug\Proxy.csproj.CoreCompileInputs.cache
+D:\Курс_II\ООАиП\Proxy\Proxy\obj\Debug\Proxy.dll
+D:\Курс_II\ООАиП\Proxy\Proxy\obj\Debug\Proxy.pdb
